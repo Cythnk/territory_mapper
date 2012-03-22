@@ -1,0 +1,11 @@
+have_header: checking for geos_c.h... -------------------- no
+
+"gcc -E -I. -I/usr/local/lib/ruby/1.8/i686-linux -I. -I/usr/local/include -I/usr/local/include -I/usr/include  -D_FILE_OFFSET_BITS=64  -g -O2    conftest.c -o conftest.i"
+conftest.c:1:20: error: geos_c.h: No such file or directory
+checked program was:
+/* begin */
+1: #include <geos_c.h>
+/* end */
+
+--------------------
+
