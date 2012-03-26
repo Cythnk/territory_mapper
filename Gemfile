@@ -10,6 +10,17 @@ gem 'therubyracer'
 gem 'json'
 gem 'rgeo'
 gem 'rgeo-shapefile'
+gem 'ffi-geos'
+gem 'proj4rb'
+gem 'dbf'
+gem 'fastercsv'
+gem 'cached_model'
+gem 'memcache'
+gem 'dalli'
+gem 'kgio'
+
+
+
 
 # Gems used only for assets and not required
 # in production environments by default.

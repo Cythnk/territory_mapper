@@ -1,11 +1,11 @@
-class ShpReader < ActiveRecord::Base
-
+class ShpReader < CachedModel 
+ 
 require 'rubygems'
 require 'rgeo/shapefile'
 require 'rgeo'
 
 
-RGeo::Shapefile::Reader.open('sduo.shp', :assume_inner_follows_outer => true)  do |file|
+RGeo::Shapefile::Reader.open('sduo.shp')  do |file|
 
   puts "File contains #{file.num_records} records."
   file.each do |record|
