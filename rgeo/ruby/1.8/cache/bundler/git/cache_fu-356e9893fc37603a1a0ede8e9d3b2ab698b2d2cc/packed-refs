@@ -1,0 +1,4 @@
+# pack-refs with: peeled 
+2e3a199af4bcd42c39bfe70e0ecbc5f429496854 refs/heads/dalli
+c0dc686a47995c185d3de82cdbe786d9ea66d118 refs/heads/master
+d74ea53d79705cd9a59ba0da6511bfb9ea299532 refs/heads/memcache_client

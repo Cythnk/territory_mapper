@@ -1,0 +1,21 @@
+== cache_fu
+
+A rewrite of acts_as_cached.
+This version is only compatible with rails 3 and above.
+
+For fragment and page caching use Rails inbuilt MemCacheStore as it already provides all the functionality.
+This gem is very useful for caching in models.
+
+== Changes from acts_as_cached 1
+
+- You can no longer set a 'ttl' method on a class.  Instead,
+  pass :ttl to acts_as_cached:
+    >> acts_as_cached :ttl => 15.minutes
+
+- The is_cached? method is aliased as cached?
+
+- set_cache on an instance can take a ttl
+    >> @story.set_cache(15.days)
+
+
+Chris Wanstrath [ chris[at]ozmm[dot]org ]
