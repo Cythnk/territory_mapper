@@ -14,6 +14,7 @@
 
 == Project Goals
 
+   -- MemCache?
    -- Render Shapefile
    -- Pull-In SQL Data
    -- Display SQL over Shapfile
@@ -26,9 +27,9 @@
 === Change Log
 
     [0.1] -- Hello World! After finding a Shapefile for all the counties in 
-    the USA, with FIPS data, I used a few gems to read the Shapefile. 
-    Currently this Appwill just spit out geo-points(to plot later) 
-    and the corresponding county name.
+    the USA, I used a few gems to read the Shapefile. 
+    Currently this app will just spit out geo-points(to plot later) 
+    with the corresponding county name.
 
 
 
