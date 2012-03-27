@@ -5,7 +5,7 @@ require 'rgeo/shapefile'
 require 'rgeo'
 
 
-RGeo::Shapefile::Reader.open('sduo.shp')  do |file|
+RGeo::Shapefile::Reader.open('maps/sduo.shp')  do |file|
 
   puts "File contains #{file.num_records} records."
   file.each do |record|
