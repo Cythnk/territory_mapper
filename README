@@ -1,12 +1,14 @@
 == Territory Mapper v 0.1
 
-   An undertaking to display SQL data over a Shapefile of the USA based on FIPS CODES, while learning rails :D.
+   An undertaking to display SQL data over a Shapefile of the 
+   USA based on FIPS CODES, while learning rails :D.
 
 
 
 == Currrent Goal 
 	
-   Working with MemCache to queue the 100 megs of geometric data used for rendering. 
+   Working with MemCache to queue the 100 megs of geometric data used 
+   for rendering. 
 
 
 
@@ -21,7 +23,10 @@
 
 === Change Log
 
-    [0.1] -- Hello World! After finding a Shapefile for all the counties in the USA, with FIPS data, I used a few gems to read the Shapefile. Currently this Appwill just spit out geo-points(to plot later) and the corresponding county name.
+    [0.1] -- Hello World! After finding a Shapefile for all the counties in 
+    the USA, with FIPS data, I used a few gems to read the Shapefile. 
+    Currently this Appwill just spit out geo-points(to plot later) 
+    and the corresponding county name.
 
 
 
